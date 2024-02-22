@@ -14,3 +14,6 @@ Com base nesse caso de estudo, é possível explorar diferentes aspectos do dese
 
 ## Modelagem conceitual
 ![](/doc/modelo-conceitual.png)
+
+## Modelagem lógica
+![](/doc/modelo-logico.png)
