@@ -17,3 +17,6 @@ Com base nesse caso de estudo, é possível explorar diferentes aspectos do dese
 
 ## Modelagem lógica
 ![](/doc/modelo-logico.png)
+
+## Modelagem física
+![](/doc/modelo-fisico.png)
