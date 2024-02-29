@@ -16,7 +16,7 @@ cursor = conexao.cursor()
 fake = Faker()
 
 # Popular a tabela usuarios
-for _ in range(1000):
+for _ in range(500):
     nome = fake.name()
     email = fake.email()
     cpf = fake.random_int(1000000000,9000000000)
@@ -29,7 +29,7 @@ for _ in range(1000):
     )
 
 # Popular a tabela cursos 
-for _ in range(100):
+for _ in range(10):
     nome = fake.word()
     descricao = fake.text()
     valor = fake.random_int(100, 1000)
@@ -40,8 +40,8 @@ for _ in range(100):
 
 # Popular a tabela transacoes
 for _ in range(1000):
-    id_usuario = fake.random_int(1, 100)
-    id_curso = fake.random_int(1, 10)
+    id_usuario = fake.random_int(1, 30000)
+    id_curso = fake.random_int(1, 40)
     metodo_pagamento = fake.random_element(elements=("cartao", "boleto", "pix"))
     descricao = fake.text()
 
