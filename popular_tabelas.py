@@ -25,7 +25,7 @@ for _ in range(500):
     e_instutor = fake.boolean(chance_of_getting_true=50)
 
     cursor.execute(
-        f"INSERT INTO usuarios (nome, email, cpf, telefone, data_nascimento, e_instutor) VALUES ('{nome}', '{email}', '{cpf}', '{telefone}', '{data_nascimento}', {e_instutor})"
+        f"INSERT INTO usuarios (nome, email, cpf, telefone, data_nascimento, e_instrutor) VALUES ('{nome}', '{email}', '{cpf}', '{telefone}', '{data_nascimento}', {e_instutor})"
     )
 
 # Popular a tabela cursos 

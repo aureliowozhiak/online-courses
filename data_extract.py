@@ -18,7 +18,7 @@ cursor.execute("SELECT * FROM usuarios")
 usuarios = cursor.fetchall()
 
 with open("lake/usuarios.csv", "w") as arquivo:
-    arquivo.write("id,nome,email,cpf,telefone,ano_nascimento,mes_nascimento,dia_nascimento,e_instutor\n")
+    arquivo.write("id,nome,email,cpf,telefone,ano_nascimento,mes_nascimento,dia_nascimento,e_instrutor\n")
     for usuario in usuarios:
         usuario = str(usuario).replace("(", "").replace(")", "").replace("datetime.date", "").replace("'", "")
         arquivo.write(usuario + "\n")

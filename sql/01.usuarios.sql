@@ -7,5 +7,5 @@ CREATE TABLE IF NOT EXISTS usuarios (
     cpf VARCHAR(11) NOT NULL,
     telefone VARCHAR(11) NOT NULL,
     data_nascimento DATE NOT NULL,
-    e_instutor BOOLEAN NOT NULL
+    e_instrutor BOOLEAN NOT NULL
 );
